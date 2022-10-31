@@ -186,6 +186,7 @@ button:hover{
 
 .cer .box div:last-child{
   padding: 10px;
+  text-align: center;
   
 }
 
@@ -205,6 +206,7 @@ button:hover{
   display: flex;
   gap: 10px;
   justify-content: center;
+ 
   
 }
 .skills .container div ul li{
@@ -212,6 +214,7 @@ button:hover{
   gap: 10px;
   background-color: #0b5e90;
   color: aliceblue;
+  box-shadow: 5px 5px 10px #0b5e90;
 }
 /* skills */
 .ref{
@@ -236,6 +239,7 @@ button:hover{
 
 .ref .box div:last-child{
   padding: 10px;
+  text-align: center;
  
   
 }
