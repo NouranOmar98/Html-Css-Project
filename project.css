@@ -176,10 +176,12 @@ button:hover{
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 5px 5px 10px #0b5e90;
+ 
 }
 
 .cer .box div:first-child{
-  height: 70%;
+  height: 80%;
+  align-items: center;
 }
 
 .cer .box div:last-child{
@@ -257,5 +259,16 @@ gap: 400px;}
  .footer ul .li{
   display: flex;
  }
+ .lan ul li {
+  display: flex;}
+
+  .language ul{
+    display:flex;
+  }
+  .container .lan{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+  }
 
  
