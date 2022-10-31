@@ -140,9 +140,8 @@ button:hover{
 }
  .Education .container{
   display: flex;
- gap:10px;
+  gap:10px;
   align-items: center;
-  
 }
 .Etext{
   width:40%;
@@ -174,7 +173,6 @@ button:hover{
 .cer .box{
   width: 30%;
   height: 500px;
-  border: ;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 5px 5px 10px #0b5e90;
@@ -223,7 +221,6 @@ button:hover{
 .ref .box{
   width: 30%;
   height: 500px;
-  border: ;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 5px 5px 10px #0b5e90;
@@ -243,7 +240,7 @@ button:hover{
 display: flex;
 gap: 400px;}
 
- i:hover{
+ .footer i:hover{
   background-color:#0b5e90;
   border: #0b5e90 solid 3px;
   border-radius: 5px;
@@ -259,21 +256,4 @@ gap: 400px;}
 
  }
 
- /* start language  */
- .language {
-  padding:30px 0px;
-  background-color: var(--section-color);
-  
-}
-
-.language .container {
-  display: flex;
-  justify-content: space-around;
-}
-
-.language .container div {
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  border-radius: 10px;
-  width: 45%;
-}
+ 
