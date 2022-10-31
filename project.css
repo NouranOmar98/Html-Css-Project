@@ -1,0 +1,279 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+/* globle section */
+.container{
+  width:90%;
+  margin:0px auto;
+ 
+  
+  
+}
+
+img{
+  width:100%;
+  height: 100%;
+}
+/* globle section */
+
+.header{
+  padding:10px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 80px;
+  background-color: #0b5e90;
+  
+}
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  width:90%;
+  margin:0 auto;
+  padding:15px;
+}
+.header .container .navbar ul{
+  display: flex;
+  gap:20px;
+
+}
+.header .container .navbar ul li a{
+text-decoration: none;
+color:white;
+font-weight: bold;
+transition: 0.6s;
+padding: 20px;
+}
+
+
+a:hover{
+  background-color:  #0b5e90;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 30px;
+  border: #0b5e90;
+  
+}
+
+@media (min-width:481px) and (max-width:768px){
+
+  }
+
+@media (min-width:0px) and (max-width:480px){
+  .header {display: none;
+      
+  }
+}
+.content{
+  
+  height:calc(100vh - 50px);
+  width: 90%;
+  margin-top:100px;
+  margin-bottom:10px;
+}
+ .content .container{
+  display: flex;
+  align-items: center;
+  gap: 112px;
+  justify-content: space-between;
+  height: 100%;
+ }
+.content .text .s{
+  color:black;
+  font-size: 50px;
+
+}
+.name{
+  color: #0b5e90;
+}
+.content .text  h1  {
+  font-weight: bolder;
+  font-size: 100px;
+}
+.content .text .orange{
+  color:#0b5e90;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+button{
+  background-color:#0b5e90;
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.6s;
+  font-size: 20px;
+  
+  border: #0b5e90;
+}
+button:hover{
+  background-color: white;
+  border: #0b5e90 solid 2px;
+  color:#0b5e90;
+}
+.content .text .t1 h1{
+  font-size: 150px;
+}
+
+ p{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.img1{
+ width: 550px;
+ height:500px;
+ margin-top: 100px;
+ margin-left: 20px;
+}
+ .img{
+  width:40%;
+ }
+
+.img2{ 
+  width: 100%;
+  height:100%;
+  
+}
+ .Education .container{
+  display: flex;
+ gap:10px;
+  align-items: center;
+  
+}
+.Etext{
+  width:40%;
+}
+.Education{
+  padding-top:30px;
+}
+.Education{
+  display:flex;
+  border: #0b5e90;
+  width:100%;
+  height: 400px;
+  align-items: center;
+}
+.main{
+  display:flex;
+ border: blue;
+  width:100%;
+  height: 400px;
+  align-items: center;
+}
+
+.cer{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.cer .box{
+  width: 30%;
+  height: 500px;
+  border: ;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px #0b5e90;
+}
+
+.cer .box div:first-child{
+  height: 70%;
+}
+
+.cer .box div:last-child{
+  padding: 10px;
+  
+}
+
+/* skills */
+.skills .container{
+  display: flex;
+  justify-content: space-between;
+}
+.skills .container div {
+  width: 45%;
+
+}
+.skills .container div  h1 {
+  text-align: center;
+}
+.skills .container div ul{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  
+}
+.skills .container div ul li{
+  border:4px solid #0b5e90; border-radius:40px; padding: 50px; ; 
+  gap: 10px;
+  background-color: #0b5e90;
+  color: aliceblue;
+}
+/* skills */
+.ref{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.ref .box{
+  width: 30%;
+  height: 500px;
+  border: ;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px #0b5e90;
+}
+
+.ref .box div:first-child{
+  height: 70%;
+}
+
+.ref .box div:last-child{
+  padding: 10px;
+  
+}
+.footer{
+ background-color: #0b5e90;
+ height: 110px;
+display: flex;
+gap: 400px;}
+
+ i:hover{
+  background-color:#0b5e90;
+  border: #0b5e90 solid 3px;
+  border-radius: 5px;
+  color: #0b5e90;
+  padding: 5px;
+ }
+ .footer ul{
+  display: flex;
+  gap: 10px;
+ }
+ .footer ul .li{
+  display: flex;
+
+ }
+
+ /* start language  */
+ .language {
+  padding:30px 0px;
+  background-color: var(--section-color);
+  
+}
+
+.language .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.language .container div {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  width: 45%;
+}
