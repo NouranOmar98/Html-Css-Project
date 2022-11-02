@@ -17,6 +17,7 @@ img{
   text-align: center;
   font-size: 80px;
   margin-bottom: 40px;
+  margin-top: 30px;
 }
 /* globle section */
 
@@ -151,61 +152,60 @@ color:white;
 
 @media(max-width:768px){
   .education .container .both{
-      flex-direction: column;
-      gap:30px;
+  flex-direction: column;
+  gap:30px;}
 
-}
-.education .container .university{
+ .education .container .university{
   width: 100%;
-}
-.certificates .container .cer{
+ }
+ .certificates .container .cer{
   flex-direction: column;
   
-}
-.certificates .container .cer{
+ }
+ .certificates .container .cer{
   flex-direction: column;
   gap:40px;
-}
-.cer .box div:last-child{
+ }
+ .cer .box div:last-child{
   font-size: 20px;
-}
+ }
 }
 @media (max-width:480px){
   .container h2{
   font-size: 50px;
   }
   .education .container .university{
-      width: 100%;
+     width: 100%;
   }
   .main .container .both{
-      flex-direction: column;}
+  flex-direction: column;}
   .main .container .both .text{
-      width:100%;
-      margin-top: 50px;
+  width:100%;
+  margin-top: 50px;
   }
   .main .container .both h1{
-      font-size: 53px;
+   font-size: 53px;
   }
 }
 @media (min-width:481px) and (max-width:768px){
   .main .container .both h1{
-      font-size: 70px;
+  font-size: 70px;
   }
   .main .container .both{
-      gap:100px;
+  gap:100px;
   }
   .main .container .both .text{
-      margin-bottom: 40px; 
+  margin-bottom: 40px; 
   }
   .skills .container .both{
-      flex-direction: column;
-      justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   }
   .skills .container .both ul{
-     flex-direction: column;
-      gap: 10px;
-      justify-content: center;
-    }
+  flex-direction: column;
+  gap: 10px;
+  jutify-content: center;
+  }
   
 }
 /* Certificates */
@@ -222,7 +222,7 @@ color:white;
 }
 @media (max-width:768px){
   .cer .box{
-      width: 100%;
+  width: 100%;
 }
 }
 
@@ -238,9 +238,9 @@ color:white;
 /*language*/
 
 .language .container{
-  width:80%;
+  width:60%;
   margin-top: 80px;
-  background-color: #97999a;
+  border: #97999a;
 }
 .language .container .lang{
   display: flex;
