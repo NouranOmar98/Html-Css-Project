@@ -403,9 +403,6 @@ display: flex;
 }
 
 @media (max-width:480px){
-  .footer li{
- 
-  } 
   .foot{
     flex-wrap: wrap;
   }
